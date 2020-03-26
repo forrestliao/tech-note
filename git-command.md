@@ -1,14 +1,14 @@
 # Git 筆記  
 *some git command*
 ## Set Config  
-set **user name** and **user email**  
+Set up **user name** and **user email** with following command.s 
 ```  
 $ git config --global user.name "Forrest Liao"
 $ git config --global user.email Forrest_Liao@xxxx.com
-```
+```  
 
-Go to the project work path to set,if it set for specified project.
-
+If you need to set up developer information under a specific project, go into the particular project’s folder and set up with the following command.
+   
 ```  
 $ git config user.name "Forrest Liao"
 $ git config user.email Forrest_Liao@xxxx.com
